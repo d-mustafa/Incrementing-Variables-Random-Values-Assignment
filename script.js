@@ -153,9 +153,10 @@ function fullReset() {
   htmlEl = document.getElementById("HTML");
 
   // Output
+  counter = 0;
+  displayE1.innerHTML = counter;
   bodyEl.style.fontSize = `initial`;
   htmlEl.style.backgroundColor = `#9ae4c8`;
-  displayE1.innerHTML = `0`;
   stringOutEl.innerHTML = "Once upon a time, ";
   rand1OutEl.innerHTML = `----------`;
   rand2OutEl.innerHTML = `----------`;
