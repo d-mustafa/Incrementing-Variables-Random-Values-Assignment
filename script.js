@@ -157,7 +157,8 @@ function fullReset() {
   displayE1.innerHTML = counter;
   bodyEl.style.fontSize = `initial`;
   htmlEl.style.backgroundColor = `#9ae4c8`;
-  stringOutEl.innerHTML = "Once upon a time, ";
+  story = "Once upon a time, ";
+  stringOutEl.innerHTML = story;
   rand1OutEl.innerHTML = `----------`;
   rand2OutEl.innerHTML = `----------`;
   rand3OutEl.innerHTML = `----------`;
